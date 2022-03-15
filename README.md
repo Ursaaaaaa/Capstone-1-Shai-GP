@@ -20,15 +20,20 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+This is an example of how to list things you need to use the software and how to install them.
+
+- Web Browser
+- VS Code
 
 ### Install
 
-### Usage
+1. Clone the repo or download the repo files
 
-### Run tests
+> git clone git@github.com:ramrod433/Hello-World.git
 
-### Deployment
+2. Open folder or zip in VS Code
+
+3. Run the HTML file (index.html) on Browser locally or with Live Server
 
 ## Authors
 
