@@ -62,6 +62,7 @@ h2 {
 }
 
 p {
+  padding-top: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
