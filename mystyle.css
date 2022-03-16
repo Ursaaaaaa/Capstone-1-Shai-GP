@@ -1,0 +1,35 @@
+* {
+  background-color: black;
+}
+header {
+  display: flex;
+  background-color: #3e32c3c;
+  color: white;
+  height: 52px;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline-flex;
+  padding-right: 30px;
+}
+
+li a {
+  flex-direction: column;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.headline {
+  height: 600px;
+  background: black;
+}
