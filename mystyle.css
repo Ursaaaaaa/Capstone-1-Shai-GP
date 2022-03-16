@@ -27,10 +27,25 @@ li a {
   padding-right: 25px;
   color: white;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .logo {
   padding-left: 30px;
+}
+
+.logo a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .headline {
