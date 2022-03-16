@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 * {
-  background-color: black;
+  margin: 0;
 }
 header {
   display: flex;
-  background-color: #3e3c3c;
+  background: #3e3c3c;
   color: white;
   height: 52px;
   font-size: 13px;
@@ -30,8 +31,11 @@ li a {
 }
 
 .headline {
-  height: 600px;
-  background: black;
+  height: 100vh;
+  background-color: black;
+  background-image: url("/images/Illustration-header@2x.png");
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 .info {
@@ -50,17 +54,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff5e1;
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
 }
 
 p {
-  font-family: "Poppins";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #f4f5f7;
 }
