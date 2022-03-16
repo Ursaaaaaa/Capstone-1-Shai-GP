@@ -3,7 +3,7 @@
 }
 header {
   display: flex;
-  background-color: #3e32c3c;
+  background-color: #3e3c3c;
   color: white;
   height: 52px;
   font-size: 13px;
@@ -32,4 +32,8 @@ li a {
 .headline {
   height: 600px;
   background: black;
+}
+
+h1 {
+  color: ;
 }
