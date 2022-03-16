@@ -2,6 +2,7 @@
 * {
   margin: 0;
 }
+
 header {
   display: flex;
   background: #3e3c3c;
@@ -11,10 +12,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 ul {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: inline-flex;
   padding-right: 30px;
 }
@@ -45,7 +47,7 @@ li a {
 }
 
 h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -54,18 +56,18 @@ h1 {
 }
 
 h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  color: #ffffff;
+  color: #fff;
 }
 
 p {
-  padding-top: 20px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   color: #f4f5f7;
+  padding-top: 20px;
 }
