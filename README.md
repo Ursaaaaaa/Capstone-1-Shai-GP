@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Portfolio
 
-> This is my first project in Module 1.
+> This is my first Microverse Project on my Portfolio.
 
 ## Built With
 
