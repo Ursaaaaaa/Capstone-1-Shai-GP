@@ -23,7 +23,6 @@ ul {
   margin: 0;
   padding: 0;
   display: inline-flex;
-  position: right;
   padding-left: 10px;
 }
 
@@ -96,6 +95,7 @@ p {
   color: #f4f5f7;
   padding-top: 20px;
 }
+
 @media (max-width: 768px) {
   .hamb-menu {
     display: none;
