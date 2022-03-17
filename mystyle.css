@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  background: #3e3c3c;
+  color: white;
+  height: 52px;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  padding-left: 10px;
+}
+
+li a {
+  flex-direction: column;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.logo a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-button {
+  padding-right: 20px;
+}
+
+.headline {
+  height: 100vh;
+  background-color: black;
+  background-image: url("/images/mobile\ back.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  width: 50vh;
+  padding-left: 50px;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .background-image {
+  position: ;
+  left: 65.74%;
+  right: -30.09%;
+  top: 29.3%;
+  bottom: -11.63%;
+  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+#socials {
+  padding-top: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f4f5f7;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .hamb-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-button {
+    display: none;
+  }
+}
