@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   display: flex;
   background: #3e3c3c;
@@ -19,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   display: inline-flex;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 li a {
@@ -46,6 +50,10 @@ li a {
   line-height: 20px;
   text-decoration: none;
   color: white;
+}
+
+.menu-button {
+  padding-right: 20px;
 }
 
 .headline {
