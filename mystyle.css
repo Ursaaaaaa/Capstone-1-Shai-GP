@@ -128,9 +128,6 @@ p {
   .hamb-menu {
     display: none;
   }
-
-  .info {
-  }
 }
 
 @media (min-width: 769px) {
