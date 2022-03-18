@@ -60,7 +60,7 @@ li a {
   width: 100%;
   height: 90vh;
   background-color: black;
-  background-image: url("/images/mobile\ back.png");
+  background-image: url("/images/mobileback.png");
   background-position: right bottom;
   background-repeat: no-repeat;
   display: flex;
@@ -149,7 +149,7 @@ hr {
 .smallworks {
   min-height: 386px;
   margin: 10px 70px 0 70px;
-  background-image: url("/images/project\ background.png");
+  background-image: url("/images/projectbackground.png");
   background-repeat: no-repeat;
 }
 
