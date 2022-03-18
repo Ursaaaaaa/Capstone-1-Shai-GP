@@ -149,10 +149,9 @@ hr {
   position: static;
   padding-left: 50px;
   width: 327px;
-  height: 0px;
+  height: 0;
   left: 050px;
   top: 107px;
-
   border: 1px solid #212121;
   flex: none;
   order: 1;
@@ -161,31 +160,61 @@ hr {
   margin-left: 70px;
 }
 
+.smallworks {
+  min-height: 386px;
+  margin: 10px 70px 0px 70px;
+  background-image: url("/images/project\ background.png");
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+
+.smallworks div {
+  padding: 40px 0px 0px 20px;
+}
+
+.smallworks h1 {
+  padding: 70px 0px 0px 20px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.smallworks p {
+  padding: 40px 70px 0px 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
 .set-image {
-  position: center;
   margin-left: 70px;
   margin-top: 30px;
 }
 
 #set2 h2 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-
   color: #091e42;
   padding-left: 70px;
   padding-top: 10px;
 }
 
 #set2 p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   color: #091e42;
   padding: 10px 50px 10px 70px;
   text-align: justify;
@@ -202,39 +231,6 @@ hr {
 .project-works {
   height: 600px;
   width: 100%;
-}
-
-.smallworks {
-  min-height: 386px;
-  margin: 10px 70px 0px 70px;
-  background-image: url("/images/project\ background.png");
-  background-position: absolute;
-  background-repeat: no-repeat;
-}
-
-.smallworks h1 {
-  padding: 70px 0px 0px 20px;
-  font-family: "Crete Round";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 44px;
-  color: #ffffff;
-}
-
-.smallworks p {
-  padding: 40px 70px 0px 20px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.smallworks div {
-  padding: 40px 0px 0px 20px;
 }
 
 .longbutton {
@@ -331,16 +327,6 @@ hr {
 }
 
 span {
-  color: #ff6b00;
-  font-size: 40px;
-}
-
-span2 {
-  color: #ff6b00;
-  font-size: 40px;
-}
-
-span3 {
   color: #ff6b00;
   font-size: 40px;
 }
