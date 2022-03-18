@@ -129,9 +129,7 @@ p {
 .works {
   height: 100vh;
   width: 100%;
-  /* display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%; */
+  display: grid;
 }
 
 #set1 h1 {
@@ -266,7 +264,6 @@ hr {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-
   font-size: 80px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -284,6 +281,68 @@ hr {
 
 #resume {
   padding: 50px 0px 0px 0px;
+}
+
+.about-lang {
+  width: 100%;
+  height: 160vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-lang hr {
+  position: static;
+  padding-left: 50px;
+  width: 327px;
+  height: 0px;
+  left: 050px;
+  top: 107px;
+
+  border: 1px solid #6d6666;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.learn h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 4px;
+  text-align: center;
+  color: white;
+  padding: 30px 0px 30px 0px;
+}
+
+.learn h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: white;
+  padding: 10px 0px 10px 0px;
+}
+
+span {
+  color: #ff6b00;
+  font-size: 40px;
+}
+
+span2 {
+  color: #ff6b00;
+  font-size: 40px;
+}
+
+span3 {
+  color: #ff6b00;
+  font-size: 40px;
 }
 
 @media (max-width: 768px) {
