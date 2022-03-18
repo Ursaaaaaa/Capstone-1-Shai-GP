@@ -178,7 +178,7 @@ hr {
   color: #fff;
 }
 
-.learn h1 {
+/* .learn h1 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -198,7 +198,7 @@ hr {
   text-align: center;
   color: white;
   padding: 10px 0 10px 0;
-}
+} */
 
 .about h1 {
   font-family: "Crete Round", sans-serif;
@@ -332,6 +332,10 @@ hr {
   margin-right: 70px;
 }
 
+.learn {
+  padding-top: 60px;
+}
+
 .learn ul {
   display: flex;
   flex-direction: column;
@@ -362,6 +366,7 @@ span {
   line-height: 4px;
   text-align: center;
   color: white;
+  padding: 10px 0 10px 0;
 }
 
 @media (max-width: 768px) {
