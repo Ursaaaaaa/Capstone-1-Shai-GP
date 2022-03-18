@@ -353,15 +353,15 @@ span {
   color: #ff6b00;
   font-size: 30px;
 }
+
 #mainlang {
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 4px;
-    text-align: center;
-    color: white;
-  }
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 4px;
+  text-align: center;
+  color: white;
 }
 
 @media (max-width: 768px) {
