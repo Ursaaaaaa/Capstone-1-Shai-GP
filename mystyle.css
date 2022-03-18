@@ -112,7 +112,7 @@ h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -224,10 +224,11 @@ hr {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   color: #f4f5f7;
   padding-top: 20px;
   padding-right: 30px;
+  text-align: left;
 }
 
 .set-image {
