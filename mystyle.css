@@ -148,7 +148,7 @@ hr {
 
 .smallworks {
   min-height: 386px;
-  margin: 10px 70px 0 70px;
+  margin: 30px 70px 0 70px;
   background-image: url("/images/projectbackground.png");
   background-repeat: no-repeat;
 }
@@ -260,7 +260,12 @@ hr {
 }
 
 #lang {
-  padding: 10px 50px 10px 70px;
+  padding: 10px 70px 10px 60px;
+  display: flex;
+}
+
+#lang ul li {
+  padding-right: 10px;
 }
 
 .project-button {
@@ -270,6 +275,10 @@ hr {
 .project-works {
   height: 600px;
   width: 100%;
+}
+
+.project-works div ul li {
+  padding-right: 10px;
 }
 
 .longbutton {
@@ -323,9 +332,36 @@ hr {
   margin-right: 70px;
 }
 
+.learn ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.learn ul li {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
 span {
   color: #ff6b00;
-  font-size: 40px;
+  font-size: 30px;
+}
+#mainlang {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 4px;
+    text-align: center;
+    color: white;
+  }
 }
 
 @media (max-width: 768px) {
