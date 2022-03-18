@@ -178,6 +178,17 @@ hr {
   color: #fff;
 }
 
+.learn ul li {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
 /* .learn h1 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -264,6 +275,10 @@ hr {
   display: flex;
 }
 
+.project-works div ul li {
+  padding-right: 10px;
+}
+
 #lang ul li {
   padding-right: 10px;
 }
@@ -275,10 +290,6 @@ hr {
 .project-works {
   height: 600px;
   width: 100%;
-}
-
-.project-works div ul li {
-  padding-right: 10px;
 }
 
 .longbutton {
@@ -342,17 +353,6 @@ hr {
   text-align: center;
 }
 
-.learn ul li {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  padding: 20px 0 20px 0;
-}
-
 span {
   color: #ff6b00;
   font-size: 30px;
@@ -360,7 +360,29 @@ span {
 
 #mainlang {
   font-family: "Crete Round", sans-serif;
-  font-style: normal;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 4px;
+  text-align: center;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+#mainlang2 {
+  font-family: "Crete Round", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 4px;
+  text-align: center;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+#mainlang3 {
+  font-family: "Crete Round", sans-serif;
+  font-style: bold;
   font-weight: 700;
   font-size: 32px;
   line-height: 4px;
