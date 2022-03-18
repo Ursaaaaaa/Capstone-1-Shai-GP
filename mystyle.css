@@ -310,7 +310,8 @@ hr {
 
 .about {
   width: 50vh;
-  padding-left: 50px;
+
+  padding-left: 40px;
   padding-top: 10vh;
   display: flex;
   flex-direction: column;
