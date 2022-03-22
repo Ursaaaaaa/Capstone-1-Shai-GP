@@ -178,6 +178,12 @@ hr {
   color: #fff;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 form li {
   padding-bottom: 30px;
 }
@@ -355,7 +361,7 @@ form li {
 form ul {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  justify-content: center;
   padding: 50px 0 30px 50px;
 }
 
