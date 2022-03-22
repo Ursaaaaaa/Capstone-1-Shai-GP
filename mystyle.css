@@ -363,7 +363,7 @@ form ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 0 30px 0px;
+  padding: 50px 0 30px 0;
 }
 
 .learn ul {
