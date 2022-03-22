@@ -6,6 +6,7 @@
 
 body {
   /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 header {
@@ -68,7 +69,6 @@ li a {
 }
 
 .info {
-  width: 50vh;
   padding-left: 50px;
   padding-top: 10vh;
   display: flex;
@@ -482,7 +482,7 @@ textarea {
 }
 
 .footer-solid {
-  width: 500px;
+  width: 430px;
   height: 0;
   left: 050px;
   top: 107px;
