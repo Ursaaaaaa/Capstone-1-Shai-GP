@@ -276,6 +276,9 @@ hr {
   display: flex;
 }
 
+form li {
+  padding-bottom: 30px;
+}
 .project-works div ul li {
   padding-right: 10px;
 }
@@ -348,6 +351,13 @@ hr {
   padding-top: 30px;
 }
 
+form ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 50px 0 30px 50px;
+}
+
 .learn ul {
   display: flex;
   flex-direction: column;
@@ -397,7 +407,7 @@ span {
 }
 
 #contact div h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -407,24 +417,12 @@ span {
   padding: 70px 50px 0 50px;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 50px 0 30px 50px;
-}
-
-form li {
-  padding-bottom: 30px;
-}
-
 input {
   height: 25px;
   width: 380px;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  size: 50px;
   border-bottom-style: double;
   background-color: #eee;
 }
@@ -434,7 +432,7 @@ textarea {
 }
 
 ::placeholder {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -451,12 +449,12 @@ textarea {
 
 #footer-button button {
   background-color: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   border-color: #e05304;
   border-style: hidden;
   width: 131px;
