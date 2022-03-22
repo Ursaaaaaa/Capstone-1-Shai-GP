@@ -178,6 +178,10 @@ hr {
   color: #fff;
 }
 
+form li {
+  padding-bottom: 30px;
+}
+
 .learn ul li {
   color: white;
   font-family: "Inter", sans-serif;
@@ -276,9 +280,6 @@ hr {
   display: flex;
 }
 
-form li {
-  padding-bottom: 30px;
-}
 .project-works div ul li {
   padding-right: 10px;
 }
