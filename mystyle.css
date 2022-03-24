@@ -87,7 +87,7 @@ li a {
 
 #socials {
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -514,6 +514,12 @@ textarea {
   #set1-solid {
     display: none;
   }
+  .set-image-desk {
+    display: none;
+  }
+  .desk-float {
+    display: none;
+  }
 }
 
 /* for desktop version */
@@ -530,8 +536,44 @@ textarea {
     background-color: black;
     background-image: url(/images/desktop/desktopheader.png);
     background-size: contain;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #socials {
+    display: flex;
+    flex-direction: column;
+    max-width: 2%;
+    /* transform: rotate(90deg);
+    transform-origin: 165px -73px; */
   }
   .solid {
     display: none;
+  }
+  #set2 {
+    display: none;
+  }
+  .set-image {
+    display: none;
+  }
+  #lang {
+    display: none;
+  }
+  .project-button {
+    display: none;
+  }
+
+  .works div h2 {
+    float: right;
+  }
+  .desk-float {
+    float: inline-start;
+    color: #1c1a19;
+  }
+  .works h2 {
+    color: black;
+  }
+  .works p {
+    float: right;
   }
 }
