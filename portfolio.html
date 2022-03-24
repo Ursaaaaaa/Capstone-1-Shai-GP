@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="mystyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -17,12 +24,13 @@
           <li><a href="#Contact"> Contact</a></li>
         </ul>
       </nav>
-      <img src="./images/Icons/Union.png" alt="Hamburger" class="menu-button" />
+      <img src="images/Icons/Union.png" alt="Hamburger" class="menu-button" />
     </header>
 
     <section class="headline">
       <div class="info">
-        <h1>Hey there, I am Nii Amanor</h1>
+        <h1>Hey there</h1>
+        <h1>I am Nii Amanor</h1>
         <h2>I am a Software Developer</h2>
         <p>
           I can help you build a product , feature or website Look through some
@@ -31,23 +39,11 @@
         </p>
       </div>
       <div id="socials">
-        <img class="social" src="/images/Icons/Social/cat.png" alt="cat icon" />
-        <img
-          class="social"
-          src="/images/Icons/Social/linkedin.png"
-          alt="linkedin button"
-        />
-        <img
-          class="social"
-          src="/images/Icons/Social/fingers.png"
-          alt="finger icon"
-        />
-        <img
-          class="social"
-          src="/images/Icons/Social/twitter.png"
-          alt="twitter icon"
-        />
-        <img class="social" src="/images/Icons/Social/m.png" alt="m icon" />
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-angellist"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-m"></i>
       </div>
     </section>
 
@@ -61,74 +57,57 @@
       <div>
         <hr class="solid" />
       </div>
-
-      <div>
-        <img
-          class="set-image"
-          src="/images/ImgPlaceholder.png"
-          alt="works image"
-        />
-        <img
-          class="set-image-desk"
-          src="/images/desktop/mpsdesktop.png"
-          alt="works image"
-        />
-        <div class="desk-float">
-          <h2 class="desk-float">Multi-Post Stories</h2>
-          <p class="desk-float">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
+      <div id="first-post">
+        <div>
+          <img
+            class="set-image"
+            src="images/ImgPlaceholder.png"
+            alt="works image"
+          />
+          <img
+            class="set-image-desk"
+            src="images/desktop/mpsdesktop.png"
+            alt="works image"
+          />
         </div>
-        <div class="desk-float">
-          <ul>
-            <li><img src="/images/Icons/languages/css.png" alt="csslang" /></li>
-            <li>
-              <img src="/images/Icons/languages/html.png" alt="htmllang" />
-            </li>
-            <li>
-              <img src="/images/Icons/languages/bootstrap.png" alt="bootlang" />
-            </li>
-            <li>
-              <img src="/images/Icons/languages/ruby.png" alt="rubylang" />
-            </li>
-          </ul>
-        </div>
-        <div class="desk-float">
-          <a href="projectlink"
-            ><img
-              src="/images/Icons/Button/Enable.png"
-              alt="button
-          icon"
-          /></a>
-        </div>
-      </div>
-      <div id="set2">
-        <h2>Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-      </div>
-      <div id="lang">
-        <ul>
-          <li><img src="/images/Icons/languages/css.png" alt="csslang" /></li>
-          <li><img src="/images/Icons/languages/html.png" alt="htmllang" /></li>
-          <li>
-            <img src="/images/Icons/languages/bootstrap.png" alt="bootlang" />
-          </li>
-          <li><img src="/images/Icons/languages/ruby.png" alt="rubylang" /></li>
-        </ul>
-      </div>
-      <div class="project-button">
-        <a href="projectlink"
-          ><img
-            src="/images/Icons/Button/Enable.png"
-            alt="button
+        <div id="first-post-text">
+          <div id="set2">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+          </div>
+          <div id="lang">
+            <ul>
+              <li>
+                <img src="images/Icons/languages/css.png" alt="csslang" />
+              </li>
+              <li>
+                <img src="images/Icons/languages/html.png" alt="htmllang" />
+              </li>
+              <li>
+                <img
+                  src="images/Icons/languages/bootstrap.png"
+                  alt="bootlang"
+                />
+              </li>
+              <li>
+                <img src="images/Icons/languages/ruby.png" alt="rubylang" />
+              </li>
+            </ul>
+          </div>
+          <div class="project-button">
+            <a href="projectlink"
+              ><img
+                src="images/Icons/Button/Enable.png"
+                alt="button
         icon"
-        /></a>
+            /></a>
+          </div>
+        </div>
       </div>
     </section>
     <section class="project-works">
@@ -142,19 +121,19 @@
           <ul>
             <li>
               <img
-                src="/images/Icons/languages/darkicons/html.png"
+                src="images/Icons/languages/darkicons/html.png"
                 alt="htmllang"
               />
             </li>
             <li>
               <img
-                src="/images/Icons/languages/darkicons/bootstrap.png"
+                src="images/Icons/languages/darkicons/bootstrap.png"
                 alt="bootlang"
               />
             </li>
             <li>
               <img
-                src="/images/Icons/languages/darkicons/ruby.png"
+                src="images/Icons/languages/darkicons/ruby.png"
                 alt="rubylang"
               />
             </li>
@@ -162,7 +141,7 @@
         </div>
       </div>
       <div class="longbutton">
-        <a href="#longbotton"><img src="/images/Action.png" alt="button" /> </a>
+        <a href="#longbotton"><img src="images/Action.png" alt="button" /> </a>
       </div>
     </section>
     <section class="about-section">
@@ -179,7 +158,7 @@
           <a href="#getmyres"
             ><img
               class="resbutton"
-              src="/images/Icons/Button/resume/Enable.png"
+              src="images/Icons/Button/resume/Enable.png"
               alt="resumeicon"
           /></a>
         </div>
@@ -266,27 +245,27 @@
       <div id="footersocial">
         <img
           class="social"
-          src="/images/Icons/Social/footericons/cat.png"
+          src="images/Icons/Social/footericons/cat.png"
           alt="cat icon"
         />
         <img
           class="social"
-          src="/images/Icons/Social/footericons/link.png"
+          src="images/Icons/Social/footericons/link.png"
           alt="linkedin button"
         />
         <img
           class="social"
-          src="/images/Icons/Social/footericons/Vector.png"
+          src="images/Icons/Social/footericons/Vector.png"
           alt="finger icon"
         />
         <img
           class="social"
-          src="/images/Icons/Social/footericons/footertwitt.png"
+          src="images/Icons/Social/footericons/footertwitt.png"
           alt="twitter icon"
         />
         <img
           class="footer-social"
-          src="/images/Icons/Social/footericons/Medium.png"
+          src="images/Icons/Social/footericons/Medium.png"
           alt="m icon"
         />
       </div>
