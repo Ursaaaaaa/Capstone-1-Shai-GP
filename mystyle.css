@@ -512,4 +512,19 @@ textarea {
   .menu-button {
     display: none;
   }
+  .info {
+    width: 50vw;
+    padding-top: 80px;
+    padding-left: 90px;
+  }
+  .headline {
+    background-color: black;
+    background-image: url(/images/desktop/desktopheader.png);
+    background-size: contain;
+  }
+
+  .solid {
+    float: right;
+    margin-bottom: 50px;
+  }
 }
