@@ -259,6 +259,10 @@ form li {
   color: #1c1a19;
 }
 
+#set1-solid {
+  width: 800px;
+}
+
 #set2 h2 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -502,12 +506,17 @@ textarea {
   padding-right: 20px;
 }
 
+/* for mobile version */
 @media (max-width: 768px) {
   .hamb-menu {
     display: none;
   }
+  #set1-solid {
+    display: none;
+  }
 }
 
+/* for desktop version */
 @media (min-width: 769px) {
   .menu-button {
     display: none;
@@ -522,9 +531,7 @@ textarea {
     background-image: url(/images/desktop/desktopheader.png);
     background-size: contain;
   }
-
   .solid {
-    float: right;
-    margin-bottom: 50px;
+    display: none;
   }
 }
