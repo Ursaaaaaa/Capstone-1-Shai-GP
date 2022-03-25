@@ -694,4 +694,12 @@ textarea {
     padding-top: 0;
     padding-left: 0;
   }
+
+  .logo {
+    padding-left: 141px;
+  }
+
+  .hamb-menu {
+    padding-right: 141px;
+  }
 }
