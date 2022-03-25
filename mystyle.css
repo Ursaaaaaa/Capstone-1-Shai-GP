@@ -687,4 +687,14 @@ textarea {
   .hamb-menu {
     padding-right: 141px;
   }
+
+  #set1-solid {
+    margin-top: 65px;
+    width: 600px;
+  }
+
+  #set1 h1 {
+    margin: 0;
+    padding: 0;
+  }
 }
