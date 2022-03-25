@@ -124,17 +124,12 @@ p {
 
 hr {
   position: static;
-  padding-left: 50px;
-  width: 327px;
+  /* padding-left: 50px; */
+  width: 100%;
   height: 0;
-  left: 050px;
-  top: 107px;
   border: 1px solid #212121;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 24px 0;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .smallworks {
@@ -245,6 +240,12 @@ form li {
 .set-image {
   margin-left: 70px;
   margin-top: 30px;
+}
+
+.set-image-desk {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 #set1 h1 {
@@ -576,9 +577,14 @@ textarea {
     display: flex;
     flex-direction: row;
     margin: 0 141px 0 141px;
+    /* margin: 0 auto; */
     padding-top: 0;
     padding-left: 0;
     padding-bottom: 0;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 50px;
   }
 
   .works h2 {
@@ -586,12 +592,17 @@ textarea {
   }
 
   #first-post {
-    display: flex;
+    /* margin: 0 auto; */
+    /* display: flex; */
     margin: 0 141px 0 141px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
   }
 
   #first-post-text {
-    width: 50%;
+    flex: 0 0 50%;
+    /* width: 50%; */
   }
 
   div {
@@ -689,12 +700,17 @@ textarea {
   }
 
   #set1-solid {
-    margin-top: 65px;
-    width: 600px;
+    position: relative;
+    top: 5px;
+    width: 100%;
   }
 
   #set1 h1 {
     margin: 0;
     padding: 0;
+  }
+
+  #set1 div {
+    flex-grow: 1;
   }
 }
