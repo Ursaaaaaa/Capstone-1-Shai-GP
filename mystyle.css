@@ -80,25 +80,8 @@ li a {
   font-size: 20px;
   gap: 10px;
   color: #fff;
-  /* transform: rotate(90deg);
-  transform-origin: 165px -73px; */
-}
-/* .background-image {
-  position: ;
-  left: 65.74%;
-  right: -30.09%;
-  top: 29.3%;
-  bottom: -11.63%;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-  display: flex;
-  flex-direction: row-reverse;
-} */
-
-#socials {
   padding-top: 30px;
   padding-left: 50px;
-  display: flex;
-  flex-direction: row;
 }
 
 .social {
@@ -184,6 +167,10 @@ hr {
   line-height: 24px;
   text-align: left;
   color: #fff;
+}
+
+.longbutton {
+  padding: 0 70px 0 70px;
 }
 
 .smallworks .longbutton {
@@ -319,10 +306,6 @@ form li {
 .project-works {
   height: 600px;
   width: 100%;
-}
-
-.longbutton {
-  padding: 0 70px 0 70px;
 }
 
 .about-section {
@@ -566,6 +549,10 @@ textarea {
     width: 566px;
   }
 
+  .works p {
+    float: right;
+  }
+
   .headline .info p {
     width: 566px;
   }
@@ -586,6 +573,8 @@ textarea {
   }
 
   #set1 {
+    display: flex;
+    flex-direction: row;
     margin: 0 141px 0 141px;
     padding-top: 0;
     padding-left: 0;
@@ -594,10 +583,6 @@ textarea {
 
   .works h2 {
     color: black;
-  }
-
-  .works p {
-    float: right;
   }
 
   #first-post {
@@ -616,7 +601,7 @@ textarea {
 
   .about-section {
     background-image: url("/images/desktop/aboutmeback.png");
-    background-size: auto;
+    background-size: 70%;
   }
 
   .about {
