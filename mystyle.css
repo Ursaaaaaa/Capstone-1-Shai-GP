@@ -186,6 +186,11 @@ hr {
   color: #fff;
 }
 
+.smallworks .longbutton {
+  padding-top: 0;
+  padding-left: 0;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -269,7 +274,7 @@ form li {
 }
 
 #set1-solid {
-  width: 700px;
+  width: 70%;
 }
 
 #set2 h2 {
@@ -520,9 +525,11 @@ textarea {
   .hamb-menu {
     display: none;
   }
+
   #set1-solid {
     display: none;
   }
+
   .set-image-desk {
     display: none;
   }
@@ -569,7 +576,8 @@ textarea {
     gap: 10px;
     color: #fff;
   }
-  .solid {
+
+  .mob-solid {
     display: none;
   }
 
@@ -580,12 +588,14 @@ textarea {
   #set1 {
     margin: 0 141px 0 141px;
     padding-top: 0;
+    padding-left: 0;
     padding-bottom: 0;
   }
 
   .works h2 {
     color: black;
   }
+
   .works p {
     float: right;
   }
@@ -604,6 +614,16 @@ textarea {
     margin: 0;
   }
 
+  .about-section {
+    background-image: url("/images/desktop/aboutmeback.png");
+    background-size: auto;
+  }
+
+  .about {
+    margin-left: 141px;
+    padding-left: 0;
+  }
+
   .about-lang {
     height: 100vh;
   }
@@ -615,5 +635,63 @@ textarea {
     justify-content: center;
     gap: 20%;
     padding-bottom: 0;
+  }
+
+  #footer-form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 141px 0 141px;
+    padding-right: 0;
+  }
+
+  #footer-form-text {
+    width: 600px;
+  }
+
+  #contact {
+    height: 700px;
+  }
+
+  #contact div h2 {
+    text-align: left;
+  }
+
+  input {
+    width: 680px;
+  }
+
+  textarea {
+    width: 680px;
+  }
+
+  #footer-button {
+    display: flex;
+    justify-content: left;
+    padding-right: 20px;
+    padding-top: 40px;
+  }
+
+  form {
+    padding-top: 35px;
+  }
+
+  .footer-solid {
+    width: 100%;
+  }
+
+  .about-lang hr {
+    justify-content: center;
+    width: 80%;
+    margin: 80px 141px 0 141px;
+  }
+
+  .smallworks {
+    width: 370px;
+    margin-left: 141px;
+  }
+
+  .smallworks .longbutton {
+    padding-top: 0;
+    padding-left: 0;
   }
 }
