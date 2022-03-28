@@ -620,7 +620,7 @@ textarea {
   }
 
   .about-section {
-    background-image: url("/images/desktop/aboutmeback.png");
+    background-image: url("images/desktop/aboutmeback.png");
     background-size: 70%;
   }
 
