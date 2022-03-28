@@ -9,7 +9,9 @@
 - HTML
 - CSS
 
-## Live Demo (Not available)
+## Live Demo
+
+Visit https://ramrod433.github.io/Portfolio/ to view online
 
 ## Getting Started
 
