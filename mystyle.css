@@ -417,11 +417,11 @@ span {
   padding: 20px 0 20px 0;
 }
 
-#contact {
+.contact {
   height: 90vh;
 }
 
-#contact div h2 {
+.contact div h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -510,6 +510,14 @@ textarea {
   padding-right: 20px;
 }
 
+.hamburger {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  background-color: white;
+}
+
 /* for mobile version */
 @media (max-width: 768px) {
   .hamb-menu {
@@ -523,12 +531,62 @@ textarea {
   .set-image-desk {
     display: none;
   }
+
+  .drop-menu {
+    display: flex;
+    background-color: #3C3A39; 
+    height: 100vh;
+    display: none;
+  }
+
+  .drop-menu.active {
+  display: block;
+  }
+
+  .menu-button.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-button.active .hamburger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-button.active .hamburger:nth-child(3) {
+   transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .logo.active {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .drop-menu ul {
+    flex-direction: column;
+  }
+
+  .drop-menu ul li a {
+    font-size: 37px;
+    line-height: 44px;
+    padding-left: 30px;
+  }
+
+  #menu-solid  {
+  width: 350px;
+  height: 0;
+  border: 2px solid #6F6C6B;
+  margin-left: 30px;
+  }
 }
 
 /* for desktop version */
 @media (min-width: 769px) {
   .menu-button {
     display: none;
+  }
+
+  .drop-menu {
+    display: none; 
   }
 
   .info {
