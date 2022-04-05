@@ -571,7 +571,7 @@ textarea {
     padding-left: 30px;
   }
 
-  #menu-solid  {
+  .menu-solid  {
   width: 350px;
   height: 0;
   border: 2px solid #6F6C6B;
