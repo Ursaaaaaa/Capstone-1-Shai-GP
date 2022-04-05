@@ -267,6 +267,17 @@ form li {
   width: 70%;
 }
 
+.contact div h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding: 70px 50px 0 50px;
+}
+
 #set2 h2 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -421,16 +432,6 @@ span {
   height: 90vh;
 }
 
-.contact div h2 {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-  padding: 70px 50px 0 50px;
-}
 
 input {
   height: 25px;
@@ -533,14 +534,14 @@ textarea {
   }
 
   .drop-menu {
-    display: flex;
-    background-color: #3C3A39; 
+    background-color: #3c3a39; 
     height: 100vh;
     display: none;
+
   }
 
   .drop-menu.active {
-  display: block;
+    display: block;
   }
 
   .menu-button.active .hamburger:nth-child(2) {
@@ -552,7 +553,7 @@ textarea {
   }
 
   .menu-button.active .hamburger:nth-child(3) {
-   transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
   }
 
   .logo.active {
@@ -571,11 +572,11 @@ textarea {
     padding-left: 30px;
   }
 
-  .menu-solid  {
-  width: 350px;
-  height: 0;
-  border: 2px solid #6F6C6B;
-  margin-left: 30px;
+  .menu-solid {
+    width: 350px;
+    height: 0;
+    border: 2px solid #6f6c6b;
+    margin-left: 30px;
   }
 }
 
@@ -587,6 +588,7 @@ textarea {
 
   .drop-menu {
     display: none; 
+
   }
 
   .info {
