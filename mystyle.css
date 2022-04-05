@@ -432,7 +432,6 @@ span {
   height: 90vh;
 }
 
-
 input {
   height: 25px;
   width: 380px;
@@ -534,10 +533,9 @@ textarea {
   }
 
   .drop-menu {
-    background-color: #3c3a39; 
+    background-color: #3c3a39;
     height: 100vh;
     display: none;
-
   }
 
   .drop-menu.active {
@@ -587,7 +585,8 @@ textarea {
   }
 
   .drop-menu {
-    display: none; }
+    display: none;
+  }
 
   .info {
     margin: 0;
