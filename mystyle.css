@@ -571,10 +571,13 @@ textarea {
   }
 
   .menu-solid {
+    display: block;
+    height: 3px;
+    background-color: #6f6c6b;
     width: 350px;
-    height: 0;
-    border: 2px solid #6f6c6b;
     margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
