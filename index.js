@@ -16,22 +16,22 @@ const projects = {
     title: "Multi-post Stories",
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     technologies: ["html", "javascript", "bootstrap", "ruby on rail"],
-    image: "images/Img-placeholder.png",
+    image: "images/popup/feat.png",
     liveDemoLink: "#",
   },
   project1: {
     title: "Healthcare System",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ["html", "javascript", "bootstrap", "ruby on rail"],
-    image: "images/img-2.png",
+    image: "images/popup/pro1.png",
     liveDemoLink: "#",
     gitLink: "",
   },
   project2: {
     title: "School Management System",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ["html", "javascript"],
-    image: "images/img-3.png",
+    technologies: ["html", "javascript", "bootstrap", "ruby on rail"],
+    image: "images/popup/pro2.png",
     liveDemoLink: "#",
     gitLink: "#",
   },
@@ -39,7 +39,7 @@ const projects = {
     title: "E-commerce Web Application",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ["html", "javascript", "ruby on rail"],
-    image: "images/img-4.png",
+    image: "images/popup/pro3.png",
     liveDemoLink: "#",
     gitLink: "#",
   },
@@ -47,7 +47,7 @@ const projects = {
     title: "Hotel Management System",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ["html", "javascript", "ruby on rail", "bootstrap"],
-    image: "images/img-5.png",
+    image: "images/popup/pro4.png",
     liveDemoLink: "#",
     gitLink: "",
   },
@@ -55,7 +55,7 @@ const projects = {
     title: "Cooking and Recipe",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ["html", "javascript", "ruby on rail"],
-    image: "images/img-6.png",
+    image: "images/popup/pro5.png",
     liveDemoLink: "#",
     gitLink: "#",
   },
@@ -63,22 +63,22 @@ const projects = {
     title: "Messaging Chat Web",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ["html", "javascript", "ruby on rail"],
-    image: "images/img-1.png",
+    image: "images/popup/pro6.png",
     liveDemoLink: "#",
     gitLink: "#",
   },
 };
 
-//close popup function
+// close popup function
 const closeModal = function () {
   popup.classList.add("hidden");
   overlay.classList.add("hidden");
 };
-//close popup button set on listener
+// close popup  set on listener
 popupCloseBtn.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
-/**Close popup window if pressed anywhere */
+// close popup  if pressed anywhere
 document.onclick = function (e) {
   if (e.target.id !== "id-menu-bar") {
     primaryNav.classList.remove("active");
