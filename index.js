@@ -113,9 +113,9 @@ projectBtn.forEach((button) => {
     const liveDemo = document.querySelector('.liveLink');
     const githubLink = document.querySelector('.gitLink');
     const img = document.querySelector('.image-proj');
-    let items = document.querySelectorAll('.popup-list li');
+    const items = document.querySelectorAll('.popup-list li');
 
-    for (let project of [...Object.keys(projects)]) {
+    for (const project of [...Object.keys(projects)]) {
       if (button.classList.contains(project)) {
         h2.textContent = projects[project].title;
         p.textContent = projects[project].desc;
@@ -128,4 +128,3 @@ projectBtn.forEach((button) => {
     }
   });
 });
-

@@ -304,7 +304,7 @@ form li {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d
+  color: #172b4d;
 }
 
 .contact div h2 {
@@ -946,4 +946,5 @@ textarea {
   .popup-desc {
     width: 45%;
   }
+  
 }
