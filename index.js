@@ -115,13 +115,13 @@ projectBtn.forEach((button) => {
     const img = document.querySelector('.image-proj');
     const items = document.querySelectorAll('.popup-list li');
 
-    for (const project of [...Object.keys(projects)]) {
+    for (let project of [...Object.keys(projects)]) {
       if (button.classList.contains(project)) {
         h2.textContent = projects[project].title;
         p.textContent = projects[project].desc;
         img.src = projects[project].image;
-
-        for (let i = 0; i < items.length; i++) {
+        
+        for (let i = 0; i < items.length; i+= 1) {
           items[i].textContent = projects[project].technologies[i];
         }
       }
