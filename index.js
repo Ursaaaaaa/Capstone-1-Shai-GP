@@ -81,9 +81,9 @@ overlay.addEventListener('click', closeModal);
 // close popup  if pressed anywhere
 document.onclick = function (e) {
   if (e.target.id !== 'id-menu-bar') {
-    primaryNav.classList.remove('active');
-    logoText.classList.remove('active');
-    menuBar.classList.remove('active');
+    menu.classList.remove('active');
+    logo.classList.remove('active');
+    menuButton.classList.remove('active');
   }
 };
 
@@ -110,8 +110,8 @@ projectBtn.forEach((button) => {
 
     const h2 = document.querySelector('.popup h2');
     const p = document.querySelector('.popup p');
-    const liveDemo = document.querySelector('.liveLink');
-    const githubLink = document.querySelector('.gitLink');
+    // const liveDemo = document.querySelector('.liveLink');
+    // const githubLink = document.querySelector('.gitLink');
     const img = document.querySelector('.image-proj');
     const items = document.querySelectorAll('.popup-list li');
 
