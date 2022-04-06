@@ -267,6 +267,17 @@ form li {
   width: 70%;
 }
 
+.contact div h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding: 70px 50px 0 50px;
+}
+
 #set2 h2 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -417,19 +428,8 @@ span {
   padding: 20px 0 20px 0;
 }
 
-#contact {
+.contact {
   height: 90vh;
-}
-
-#contact div h2 {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-  padding: 70px 50px 0 50px;
 }
 
 input {
@@ -510,6 +510,14 @@ textarea {
   padding-right: 20px;
 }
 
+.hamburger {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  background-color: white;
+}
+
 /* for mobile version */
 @media (max-width: 768px) {
   .hamb-menu {
@@ -523,11 +531,64 @@ textarea {
   .set-image-desk {
     display: none;
   }
+
+  .drop-menu {
+    background-color: #3c3a39;
+    height: 100vh;
+    display: none;
+  }
+
+  .drop-menu.active {
+    display: block;
+  }
+
+  .menu-button.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-button.active .hamburger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-button.active .hamburger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .logo.active {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .drop-menu ul {
+    flex-direction: column;
+  }
+
+  .drop-menu ul li a {
+    font-size: 37px;
+    line-height: 44px;
+    padding-left: 30px;
+    color: #fff5e1;
+  }
+
+  .menu-solid {
+    display: block;
+    height: 3px;
+    background-color: #6f6c6b;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 /* for desktop version */
 @media (min-width: 769px) {
   .menu-button {
+    display: none;
+  }
+
+  .drop-menu {
     display: none;
   }
 
