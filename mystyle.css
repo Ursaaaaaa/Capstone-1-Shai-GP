@@ -170,6 +170,20 @@ hr {
   padding: 0 70px 0 70px;
 }
 
+.see-project {
+  width: 120px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  cursor: pointer;
+  background: #e05304;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
 .longbutton .see-project {
   width: 327px;
   height: 45px;
@@ -189,6 +203,18 @@ form {
 
 form li {
   padding-bottom: 30px;
+}
+
+.popup-list li {
+  margin: 80px 12px 34px 0;
+  padding: 10px;
+  border: 1px solid #dfe1e6;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
 }
 
 .learn ul li {
@@ -270,6 +296,15 @@ form li {
 
 #set1-solid {
   width: 70%;
+}
+
+.popup-heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d
 }
 
 .contact div h2 {
@@ -468,6 +503,13 @@ textarea {
   padding-top: 40px;
 }
 
+.popup-buttons button {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #footer-button button {
   background-color: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -564,15 +606,6 @@ textarea {
   align-items: center;
 }
 
-.popup-heading h2 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d
-}
-
 /* close button image */
 .popup-close {
   width: 16px;
@@ -583,18 +616,6 @@ textarea {
 .popup-list {
   display: flex;
   align-items: flex-start;
-}
-
-.popup-list li {
-  margin: 80px 12px 34px 0;
-  padding: 10px;
-  border: 1px solid #dfe1e6;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3c3a39;
 }
 
 .popup-content {
@@ -624,29 +645,8 @@ textarea {
   gap: 3px;
 }
 
-.popup-buttons button {
-  width: 130px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .fa {
   padding-left: 8px;
-}
-
-.see-project {
-  width: 120px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 19px;
-  cursor: pointer;
-  background: #e05304;
-  color: white;
-  padding: 10px;
-  border: none;
 }
 
 /* for mobile version */
@@ -946,5 +946,4 @@ textarea {
   .popup-desc {
     width: 45%;
   }
-
 }
