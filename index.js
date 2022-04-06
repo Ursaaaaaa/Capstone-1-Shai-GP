@@ -107,7 +107,7 @@ projectBtn.forEach((button) => {
   button.addEventListener('click', () => {
     popup.classList.remove('hidden');
     overlay.classList.remove('hidden');
-
+// eslint-disable-next-line no-restricted-globals
     const h2 = document.querySelector('.popup h2');
     const p = document.querySelector('.popup p');
     // const liveDemo = document.querySelector('.liveLink');
