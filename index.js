@@ -70,7 +70,7 @@ const projects = {
 };
 
 // close popup function
-const closeModal = function () {
+const closeModal = () => {
   popup.classList.add('hidden');
   overlay.classList.add('hidden');
 };
@@ -79,7 +79,7 @@ popupCloseBtn.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
 // close popup  if pressed anywhere
-document.onclick = function (e) {
+document.onclick = (e) => {
   if (e.target.id !== 'id-menu-bar') {
     menu.classList.remove('active');
     logo.classList.remove('active');
@@ -107,21 +107,21 @@ projectBtn.forEach((button) => {
   button.addEventListener('click', () => {
     popup.classList.remove('hidden');
     overlay.classList.remove('hidden');
-// eslint-disable-next-line no-restricted-globals
+    // eslint-disable-next-line no-restricted-globals
     const h2 = document.querySelector('.popup h2');
     const p = document.querySelector('.popup p');
     // const liveDemo = document.querySelector('.liveLink');
     // const githubLink = document.querySelector('.gitLink');
     const img = document.querySelector('.image-proj');
     const items = document.querySelectorAll('.popup-list li');
-
-    for (let project of [...Object.keys(projects)]) {
+    // eslint-disable-next-line no-restricted-syntax
+    for (const project of [...Object.keys(projects)]) {
       if (button.classList.contains(project)) {
         h2.textContent = projects[project].title;
         p.textContent = projects[project].desc;
         img.src = projects[project].image;
-        // eslint-disable-next-line no-pluplus
-        for (let i = 0; i < items.length; i++) {
+        // eslint-disable-next-line no-plusplus
+        for (let i = 0; i < items.length; i += 1) {
           items[i].textContent = projects[project].technologies[i];
         }
       }
