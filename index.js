@@ -5,10 +5,89 @@ const menuButton = document.querySelector('.menu-button');
 const navmenu = document.querySelector('.drop-menu ul');
 
 // popup variables
-const modal = document.querySelector(".popup");
+const popup = document.querySelector(".popup");
 const overlay = document.querySelector(".overlay");
-const modalCloseBtn = document.querySelector(".popup-close");
+const popupCloseBtn = document.querySelector(".popup-close");
 const projectBtn = document.querySelectorAll(".see-project");
+
+// Projects
+const projects = {
+  featureProj: {
+    title: "Multi-post Stories",
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    technologies: ["html", "javascript", "bootstrap", "ruby on rail"],
+    image: "images/Img-placeholder.png",
+    liveDemoLink: "#",
+  },
+  project1: {
+    title: "Healthcare System",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript", "bootstrap", "ruby on rail"],
+    image: "images/img-2.png",
+    liveDemoLink: "#",
+    gitLink: "",
+  },
+  project2: {
+    title: "School Management System",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript"],
+    image: "images/img-3.png",
+    liveDemoLink: "#",
+    gitLink: "#",
+  },
+  project3: {
+    title: "E-commerce Web Application",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript", "ruby on rail"],
+    image: "images/img-4.png",
+    liveDemoLink: "#",
+    gitLink: "#",
+  },
+  project4: {
+    title: "Hotel Management System",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript", "ruby on rail", "bootstrap"],
+    image: "images/img-5.png",
+    liveDemoLink: "#",
+    gitLink: "",
+  },
+  project5: {
+    title: "Cooking and Recipe",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript", "ruby on rail"],
+    image: "images/img-6.png",
+    liveDemoLink: "#",
+    gitLink: "#",
+  },
+  project6: {
+    title: "Messaging Chat Web",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ["html", "javascript", "ruby on rail"],
+    image: "images/img-1.png",
+    liveDemoLink: "#",
+    gitLink: "#",
+  },
+};
+
+//close popup function
+const closeModal = function () {
+  popup.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
+//close popup button set on listener
+popupCloseBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+
+/**Close popup window if pressed anywhere */
+document.onclick = function (e) {
+  if (e.target.id !== "id-menu-bar") {
+    primaryNav.classList.remove("active");
+    logoText.classList.remove("active");
+    menuBar.classList.remove("active");
+  }
+};
+
+// mobile menu events and functions
 
 hamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
@@ -21,3 +100,32 @@ navmenu.addEventListener('click', () => {
   logo.classList.toggle('active');
   menuButton.classList.toggle('active');
 });
+
+// project object loop
+
+projectBtn.forEach((button) => {
+  button.addEventListener("click", () => {
+    popup.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+
+    const h2 = document.querySelector(".popup h2");
+    const p = document.querySelector(".popup p");
+    const liveDemo = document.querySelector(".liveLink");
+    const githubLink = document.querySelector(".gitLink");
+    const img = document.querySelector(".image-proj");
+    let items = document.querySelectorAll(".popup-list li");
+
+    for (let project of [...Object.keys(projects)]) {
+      if (button.classList.contains(project)) {
+        h2.textContent = projects[project].title;
+        p.textContent = projects[project].desc;
+        img.src = projects[project].image;
+
+        for (let i = 0; i < items.length; i++) {
+          items[i].textContent = projects[project].technologies[i];
+        }
+      }
+    }
+  });
+});
+

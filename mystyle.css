@@ -170,6 +170,11 @@ hr {
   padding: 0 70px 0 70px;
 }
 
+.longbutton .see-project {
+  width: 327px;
+  height: 45px;
+}
+
 .smallworks .longbutton {
   padding-top: 0;
   padding-left: 0;
@@ -322,6 +327,7 @@ form li {
 
   /* height: 600px; */
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .about-section {
@@ -519,9 +525,9 @@ textarea {
 }
 
 /* Popup props */
-/* .hidden {
+.hidden {
   display: none;
-} */
+}
 
 .icon-btn {
   width: 24px;
