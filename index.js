@@ -120,8 +120,8 @@ projectBtn.forEach((button) => {
         h2.textContent = projects[project].title;
         p.textContent = projects[project].desc;
         img.src = projects[project].image;
-        
-        for (let i = 0; i < items.length; i+= 1) {
+        // eslint-disable-next-line no-pluplus
+        for (let i = 0; i < items.length; i++) {
           items[i].textContent = projects[project].technologies[i];
         }
       }
