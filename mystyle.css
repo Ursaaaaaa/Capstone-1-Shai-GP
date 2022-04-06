@@ -629,6 +629,20 @@ textarea {
   padding-left: 8px;
 }
 
+.see-project {
+  width: 120px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  cursor: pointer;
+  background: #e05304;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
 /* for mobile version */
 @media (max-width: 768px) {
   .hamb-menu {
@@ -920,11 +934,11 @@ textarea {
   }
 
   .popup-list li {
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .popup-desc {
-    width: 40%;
+    width: 45%;
   }
 
 }
