@@ -19,7 +19,7 @@ const projects = {
     image: 'images/popup/feat.png',
     liveDemoLink: '#',
   },
-  project1: {
+  proj1: {
     title: 'Healthcare System',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'bootstrap', 'ruby on rail'],
@@ -27,7 +27,7 @@ const projects = {
     liveDemoLink: '#',
     gitLink: '',
   },
-  project2: {
+  proj2: {
     title: 'School Management System',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'bootstrap', 'ruby on rail'],
@@ -35,7 +35,7 @@ const projects = {
     liveDemoLink: '#',
     gitLink: '#',
   },
-  project3: {
+  proj3: {
     title: 'E-commerce Web Application',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'ruby on rail'],
@@ -43,7 +43,7 @@ const projects = {
     liveDemoLink: '#',
     gitLink: '#',
   },
-  project4: {
+  proj4: {
     title: 'Hotel Management System',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'ruby on rail', 'bootstrap'],
@@ -51,7 +51,7 @@ const projects = {
     liveDemoLink: '#',
     gitLink: '',
   },
-  project5: {
+  proj5: {
     title: 'Cooking and Recipe',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'ruby on rail'],
@@ -59,7 +59,7 @@ const projects = {
     liveDemoLink: '#',
     gitLink: '#',
   },
-  project6: {
+  proj6: {
     title: 'Messaging Chat Web',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'javascript', 'ruby on rail'],
