@@ -148,7 +148,7 @@ function alertMsg(msg) {
 }
 
 form.addEventListener('submit', (e) => {
-  const lowerCaseReg = /^[A-Z]/g;
+  const lowerCaseReg = /[A-Z]/;
   if (lowerCaseReg.test(inputEm.value) === true) {
     alertMsg('Please use small letters for email address');
     e.preventDefault();
