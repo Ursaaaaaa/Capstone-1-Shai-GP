@@ -440,7 +440,11 @@
           </h2>
         </div>
         <div>
-          <form action="https://formspree.io/f/mnqwzykj" method="post">
+          <form
+            action="https://formspree.io/f/mnqwzykj"
+            method="post"
+            id="contact-form"
+          >
             <ul>
               <li>
                 <label for="fullname"></label>
@@ -475,6 +479,9 @@
                   required
                 ></textarea>
               </li>
+              <p class="error-message hidden">
+                You have entered an invalid email address!
+              </p>
               <li id="footer-button">
                 <button type="submit">Get in touch</button>
               </li>
