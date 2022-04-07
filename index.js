@@ -12,7 +12,7 @@ const projectBtn = document.querySelectorAll('.see-project');
 
 // Validate email
 const form = document.querySelector('#contact-form');
-const inputEmail = document.querySelector('#email');
+const inputEm = document.querySelector('#email');
 const alert = document.querySelector('.error-message');
 
 // Projects
@@ -140,3 +140,17 @@ document.onclick = (e) => {
     alert.classList.add('hidden');
   }
 };
+
+// error message
+function alertMsg(msg) {
+  alert.classList.remove('hidden');
+  alert.textContent = msg;
+}
+
+form.addEventListener('submit', (e) => {
+  const lowerCaseReg = /[a - z]/;
+  if (lowerCaseReg.test(inputEm.value) === false) {
+    alertMsg('Please use small letters for email address');
+    e.preventDefault();
+  }
+});
