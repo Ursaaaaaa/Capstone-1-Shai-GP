@@ -940,10 +940,10 @@ textarea {
   }
 
   .popup-list li {
-    margin-top: 11px;
+    margin-top: 10px;
   }
 
   .popup-desc {
-    width: 50%;
+    width: 45%;
   }
 }
