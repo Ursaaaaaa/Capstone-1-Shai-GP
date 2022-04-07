@@ -10,6 +10,11 @@ const overlay = document.querySelector('.overlay');
 const popupCloseBtn = document.querySelector('.popup-close');
 const projectBtn = document.querySelectorAll('.see-project');
 
+// Validate email
+const form = document.querySelector('#contact-form');
+const inputEm = document.querySelector('#email');
+const alert = document.querySelector('.error-message');
+
 // Projects
 const projects = {
   featureProj: {
@@ -78,15 +83,6 @@ const closeModal = () => {
 popupCloseBtn.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
-// close popup  if pressed anywhere
-document.onclick = (e) => {
-  if (e.target.id !== 'id-menu-bar') {
-    menu.classList.remove('active');
-    logo.classList.remove('active');
-    menuButton.classList.remove('active');
-  }
-};
-
 // mobile menu events and functions
 
 hamburger.addEventListener('click', () => {
@@ -127,4 +123,34 @@ projectBtn.forEach((button) => {
       }
     }
   });
+});
+
+// form validation
+// close popup  if pressed anywhere
+document.onclick = (e) => {
+  if (e.target.id !== 'id-menu-bar') {
+    menu.classList.remove('active');
+    logo.classList.remove('active');
+    menuButton.classList.remove('active');
+  } else if (
+    e.target.id === 'email'
+    || e.target.id === 'fullname'
+    || e.target.id === 'msg'
+  ) {
+    alert.classList.add('hidden');
+  }
+};
+
+// error message
+function alertMsg(msg) {
+  alert.classList.remove('hidden');
+  alert.textContent = msg;
+}
+
+form.addEventListener('submit', (e) => {
+  const lowerCaseReg = /[A-Z]/;
+  if (lowerCaseReg.test(inputEm.value) === true) {
+    alertMsg('Please use small letters for email address');
+    e.preventDefault();
+  }
 });
