@@ -956,7 +956,7 @@ textarea {
   }
 
   .popup-content img {
-    width: 70%;
+    width: 55%;
   }
 
   .popup-list li {
@@ -964,6 +964,6 @@ textarea {
   }
 
   .popup-desc {
-    width: 45%;
+    width: 50%;
   }
 }
