@@ -132,7 +132,7 @@ document.onclick = (e) => {
     menu.classList.remove('active');
     logo.classList.remove('active');
     menuButton.classList.remove('active');
-  }else if (
+  } else if (
     e.target.id === 'email'
     || e.target.id === 'fullname'
     || e.target.id === 'msg'
