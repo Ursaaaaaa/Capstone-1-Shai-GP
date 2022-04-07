@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -170,6 +170,25 @@ hr {
   padding: 0 70px 0 70px;
 }
 
+.see-project {
+  width: 120px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  cursor: pointer;
+  background: #e05304;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.longbutton .see-project {
+  width: 327px;
+  height: 45px;
+}
+
 .smallworks .longbutton {
   padding-top: 0;
   padding-left: 0;
@@ -184,6 +203,18 @@ form {
 
 form li {
   padding-bottom: 30px;
+}
+
+.popup-list li {
+  margin: 80px 12px 34px 0;
+  padding: 10px;
+  border: 1px solid #dfe1e6;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
 }
 
 .learn ul li {
@@ -267,6 +298,15 @@ form li {
   width: 70%;
 }
 
+.popup-heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
 .contact div h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -322,6 +362,7 @@ form li {
 
   /* height: 600px; */
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .about-section {
@@ -462,6 +503,13 @@ textarea {
   padding-top: 40px;
 }
 
+.popup-buttons button {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #footer-button button {
   background-color: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -516,6 +564,99 @@ textarea {
   height: 2px;
   margin: 5px;
   background-color: white;
+}
+
+/* Popup props */
+.hidden {
+  display: none;
+}
+
+.icon-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.popup {
+  padding: 16px;
+  position: fixed;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 85%;
+  max-height: 85%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.popup-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* close button image */
+.popup-close {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.popup-list {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.popup-desc {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.popup-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #344563;
+  padding: 0;
+  margin: 0;
+}
+
+.popup-buttons {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
+.fa {
+  padding-left: 8px;
 }
 
 /* for mobile version */
@@ -797,5 +938,23 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .popup-content {
+    flex-direction: row;
+    height: 85%;
+    gap: 20px;
+  }
+
+  .popup-content img {
+    width: 70%;
+  }
+
+  .popup-list li {
+    margin-top: 10px;
+  }
+
+  .popup-desc {
+    width: 45%;
   }
 }
