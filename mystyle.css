@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -597,6 +597,7 @@ textarea {
   z-index: 10;
   width: 85%;
   max-height: 85%;
+  height: 100%;
   overflow: scroll;
 }
 
@@ -616,32 +617,41 @@ textarea {
 .popup-list {
   display: flex;
   align-items: flex-start;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .popup-content {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .popup-desc {
+  display: flex;
+  height: 100%;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .popup-text {
-  margin: 24px 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--blue);
+  font-size: 17px;
+  line-height: 30px;
+  color: #344563;
+  padding: 0;
+  margin: 0;
 }
 
 .popup-buttons {
   width: 100%;
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 3px;
 }
 
@@ -932,6 +942,7 @@ textarea {
 
   .popup-content {
     flex-direction: row;
+    height: 85%;
     gap: 20px;
   }
 
