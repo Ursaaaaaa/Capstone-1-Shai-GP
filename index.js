@@ -148,6 +148,7 @@ function alertMsg(msg) {
   alert.classList.remove('hidden');
   alert.textContent = msg;
 }
+// preserve local
 
 form.addEventListener('submit', (e) => {
   const lowerCaseReg = /[A-Z]/;
@@ -169,3 +170,12 @@ if (localStorage.getItem('msg') != null) {
   inputNm.value = userMsg.name;
   inputMs.value = userMsg.msg;
 }
+
+form.addEventListener('input', (e) => {
+  const msg = {
+    email: inputEm.value,
+    name: inputNm.value,
+    msg: inputMs.value,
+  };
+  localStorage.setItem('msg', JSON.stringify(msg));
+})
