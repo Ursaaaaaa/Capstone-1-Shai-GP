@@ -13,6 +13,8 @@ const projectBtn = document.querySelectorAll('.see-project');
 // Validate email
 const form = document.querySelector('#contact-form');
 const inputEm = document.querySelector('#email');
+const inputMs = document.querySelector('#msg');
+const inputNm = document.querySelector('#fullname');
 const alert = document.querySelector('.error-message');
 
 // Projects
@@ -153,4 +155,17 @@ form.addEventListener('submit', (e) => {
     alertMsg('Please use small letters for email address');
     e.preventDefault();
   }
+  const msg = {
+    email: inputEm.value,
+    name: inputNm.value,
+    msg: inputMs.value,
+  };
+  localStorage.setItem('msg', JSON.stringify(msg));
 });
+
+if (localStorage.getItem('msg') != null) {
+  const userMsg = JSON.parse(localStorage.getItem('msg'));
+  inputEm.value = userMsg.email;
+  inputNm.value = userMsg.name;
+  inputMs.value = userMsg.msg;
+}
