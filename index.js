@@ -171,11 +171,11 @@ if (localStorage.getItem('msg') != null) {
   inputMs.value = userMsg.msg;
 }
 
-form.addEventListener('input', (e) => {
+form.addEventListener('input', () => {
   const msg = {
     email: inputEm.value,
     name: inputNm.value,
     msg: inputMs.value,
   };
   localStorage.setItem('msg', JSON.stringify(msg));
-})
+});
