@@ -29,7 +29,7 @@ ul {
 li a {
   flex-direction: column;
   padding-right: 25px;
-  color: blue;
+  color: #fff;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -49,7 +49,7 @@ li a {
   font-size: 20px;
   line-height: 20px;
   text-decoration: none;
-  color: blue;
+  color: #fff;
 }
 
 .menu-button {
