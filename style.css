@@ -1,0 +1,27 @@
+/* Home */
+header {
+    display: flex;
+    justify-content: flex-end;
+    max-height: 60px;
+    background-color: white;
+}
+
+.logo {
+    max-height: 60px;
+    margin-right: auto;
+}
+
+a, li,button {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#campaign {
+    padding: 15px 30px;
+}
+/* About */
