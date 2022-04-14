@@ -241,7 +241,124 @@ main p {
 
 
 /* About */
+#about-main {
+    padding-bottom: 7%;
+    text-align: center; 
+}
 
+#about-main h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#about-main #email {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#logo-reveal {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#logo-reveal h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2% 20%;
+}
+
+#logo-reveal p {
+    padding: 5% 12%;
+}
+
+#logo-image {
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid #d3d4dc;
+    padding: 2% 7%;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+
+#past-summits {
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#past-summits h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2% 20%;
+}
+
+#past-summits p {
+    padding: 5% 12%;
+}
+
+.past-summit-card {
+    padding: 2% 0;
+    position: relative;
+}
+
+.past-summit-card img {
+    max-width: 400px;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.past-summit-card h2 {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    color: white;
+}
+
+.past-summit-card p {
+    position: absolute;
+    top: 70px;
+    left: 9%;
+    color: white;
+}
+
+#partners {
+    background-color: #414248;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#partners h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3% 20%;
+    color: #fff;
+}
+
+#partner-img {
+    padding: 20% 0;
+}
+
+#partner-img img {
+    width: 30%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+footer div img {
+    max-width: 200px;
+}
+
+#footer-text {
+    text-align: left;
+    padding-top: 7%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+     
+}
 
 /* mobile version */
 @media(max-width: 768px) {
