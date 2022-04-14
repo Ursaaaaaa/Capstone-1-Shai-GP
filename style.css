@@ -392,6 +392,18 @@ footer div img {
 #home-footer {
     display: none;
 }
+
+.gone {
+    display: none;
+}
+
+#more-intro {
+    display: none;
+}
+
+#more-logo {
+    display: none;
+}
 }
 
 @media(min-width:769px) {
@@ -495,5 +507,80 @@ footer div img {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: 400;   
+}
+
+#about-main div #intro {
+    margin-right: 0;
+}
+
+#about-main div {
+    padding: 8% 10%;  
+}
+
+#about-main h1 {
+    display: none;
+}
+
+.gone {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#about-main h1,h2,p {
+    padding: 3% 0
+}
+
+#logo-reveal h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 20%;
+}
+
+#logo-reveal p {
+    padding: 5% 12%;
+}
+
+#past-summits {
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#past-summits h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 20%;
+}
+
+#past-pair {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+#partners {
+    display: none;
+}
+
+footer {
+    background: #414248;
+}
+
+.black-img {
+    display: none;
+}
+
+#footer-text {
+    color: #fff;
+    text-align: left;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;   
+}
+
+#more-footer-text{
+    display: none;
 }
 }
