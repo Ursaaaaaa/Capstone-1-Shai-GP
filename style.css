@@ -320,6 +320,19 @@ main p {
     color: white;
 }
 
+#home-partners {
+    background-color: #414248;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#home-partners h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3% 20%;
+    color: #fff;
+}
+
 #partners {
     background-color: #414248;
     text-align: center;
@@ -356,8 +369,7 @@ footer div img {
     padding-top: 7%;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    font-weight: 400;
-     
+    font-weight: 400;   
 }
 
 /* mobile version */
@@ -368,11 +380,120 @@ footer div img {
 .menu-button {
     padding-left: 5%;
 }
+
+#see-button {
+    display: none;
+}
+
+#home-partners {
+    display: none;
+}
+
+#home-footer {
+    display: none;
+}
 }
 
 @media(min-width:769px) {
 .hamburger {
         display: none;
 }
+
+.hamb-menu {
+    padding-left: 35%;
+}
+
+.hamb-menu ul li a:hover {
+    color: #ec5242;
+    font-size: 18px;
+}
+
+main div {
+    padding: 8% 10%;
     
+}
+
+ #intro {
+     margin-right: 25%;
+     border: 2px solid rgb(201, 201, 227);
+ }
+
+ main h3 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a31;
+    padding: 3%;
+}
+
+#all-programs {
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.program-cards {
+    display: block;
+    flex-direction: none;
+    background: #414248;
+    margin: 2% 0.5%;
+    text-align: center;
+}   
+
+.program-cards h2 {
+    padding: 5% 1%;
+}
+
+.program-cards p {
+    padding: 5% 10%;
+}
+
+#join-button {
+    display: none;
+}
+
+#see-button {
+    color: #fff;
+    text-decoration: underline;
+    width: 30%;
+    margin: 8% 35%;
+    background: none;
+    border: none;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+}
+
+#more-button {
+    display: none;
+}
+
+#partner-img {
+    padding: 2% 0;
+}
+
+#partner-img img {
+    width: 20%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 45%;
+}
+
+footer div img {
+    padding: 5% 5%;
+    max-width: 300px;
+}
+
+#footer-text {
+    text-align: left;
+    padding-top: 6%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;   
+}
 }
