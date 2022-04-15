@@ -452,7 +452,7 @@ footer div img {
 
 @media(min-width:769px) {
 .hamburger {
-        display: none;
+     display: none;
 }
 
 .hamb-menu {
