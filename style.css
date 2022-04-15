@@ -32,9 +32,9 @@ ul {
 }
 
 footer div img {
-    padding: 5% 5%;
-    max-width: 300px;
-  }
+  padding: 5% 5%;
+  max-width: 300px;
+}
 
 .logo img {
   padding-left: 20%;
@@ -211,11 +211,11 @@ main p {
 }
 
 .past-summit-card h2 {
-    position: absolute;
-    top: 40px;
-    left: 40%;
-    color: white;
-  }
+  position: absolute;
+  top: 40px;
+  left: 40%;
+  color: white;
+}
 
 .top-speakers div h2 {
   font-family: 'Lato', sans-serif;
@@ -235,11 +235,11 @@ main p {
 }
 
 .past-summit-card p {
-    position: absolute;
-    top: 70px;
-    left: 9%;
-    color: white;
-  }
+  position: absolute;
+  top: 70px;
+  left: 9%;
+  color: white;
+}
 
 .top-speakers div p {
   font-family: 'Lato', sans-serif;
@@ -379,9 +379,9 @@ footer {
   gap: 10%;
 }
 
-footer div img {
+/* footer div img {
   max-width: 200px;
-}
+} */
 
 #footer-text {
   text-align: left;
@@ -443,6 +443,7 @@ footer div img {
 
   .drop-menu ul {
     display: none;
+    flex-direction: column;
   }
 
   .drop-menu.active ul {
@@ -465,10 +466,6 @@ footer div img {
 
   .menu-button.active .hamburger:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
-  }
-
-  .drop-menu ul {
-    flex-direction: column;
   }
 
   .main-scroll.active {
