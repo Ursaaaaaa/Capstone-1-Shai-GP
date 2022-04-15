@@ -65,11 +65,12 @@ button {
 
 button {
   color: #ec5242;
-  background: white;
-  border-style: solid;
+  background: inherit;
+  border-style:  double;
   border-color: #ec5242;
-  border-radius: 5px;
+  border-radius: 1px;
   padding: 10px 10px;
+  margin-right: 2%;
 }
 
 li {
@@ -421,6 +422,14 @@ footer {
     display: none;
   }
 
+  #social-header {
+  display: none;
+  }
+
+  #header-button {
+    display: none;
+  }
+
   .menu-button {
     padding-left: 5%;
   }
@@ -544,6 +553,15 @@ footer {
     flex-direction: row;
     padding: 5% 5%;
     gap: 5%;
+  }
+
+  .top-speakers div h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #ec5242;
+    padding: 2% 0;
   }
 }
 
