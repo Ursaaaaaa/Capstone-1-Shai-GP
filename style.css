@@ -143,7 +143,7 @@ main p {
     justify-content: space-between;
     border: 1px #414248 solid ;
     background: #414248;
-    margin: 20px 0;
+    margin: 3% 2.5%;
     
 }
 
@@ -152,6 +152,7 @@ main p {
 }
 
 .program-cards h2 {
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: #e6342d;
     padding: 2% 4%;
@@ -159,9 +160,10 @@ main p {
 }
 
 .program-cards p {
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    padding: 0 10%;
+    padding-left: 4%;
 }
 
 #join-button {
@@ -415,7 +417,7 @@ footer div img {
     display: none;
 }
 
-#back2 {
+#more-footer-text {
     display: none;
 }
 
@@ -431,7 +433,7 @@ footer div img {
     width: 100%;
   }
 
-  .drop-menu ul {
+.drop-menu ul {
       display: none;
   }
 
@@ -478,6 +480,11 @@ footer div img {
 
   .drop-menu ul li {
   overflow-y: hidden;
+}
+
+.program-cards img {
+    max-width: 40px;
+    max-height: 50px;
 }
   
 }
@@ -532,6 +539,7 @@ main div {
     display: block;
     flex-direction: none;
     background: #414248;
+    width: 25%;
     margin: 2% 0.5%;
     text-align: center;
 }   
