@@ -1,17 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# The Shai Grand Prix African Summit 2023
 
-> This is my first Microverse Project on my Portfolio.
+> This is my first Microverse Capstone Project .
 
 ## Built With
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
-Visit https://ramrod433.github.io/Portfolio/ to view online
+Visit [here](https:https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
 
 ## Getting Started
 
@@ -25,13 +26,13 @@ To get a local copy up and running follow these simple example steps.
 This is an example of how to list things you need to use the software and how to install them.
 
 - Web Browser
-- VS Code
+- [Visual Studio code](https://code.visualstudio.com/)
 
 ### Install
 
 1. Clone the repo or download the repo files
 
-> git clone git@github.com:ramrod433/Hello-World.git
+> git clone git@github.com:ramrod433/Capstone-1-Shai-GP.git
 
 2. Open folder or zip in VS Code
 
@@ -57,6 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Theme Original design idea by: [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
