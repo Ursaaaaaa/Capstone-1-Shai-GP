@@ -415,6 +415,39 @@ footer div img {
 #back2 {
     display: none;
 }
+
+.drop-menu {
+    background-color:#ec5242;
+    height: 100vh;
+    display: none;
+  }
+
+  .drop-menu.active {
+    display: block;
+  }
+
+  .menu-button.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-button.active .hamburger:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-button.active .hamburger:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .drop-menu ul {
+    flex-direction: column;
+  }
+
+  .drop-menu ul li a {
+    font-size: 37px;
+    line-height: 44px;
+    padding-left: 30px;
+    color: #fff5e1;
+  }
 }
 
 @media(min-width:769px) {
@@ -429,6 +462,10 @@ footer div img {
 .hamb-menu ul li a:hover {
     color: #ec5242;
     font-size: 18px;
+}
+
+.drop-menu {
+    display: none;
 }
 
 main div {
