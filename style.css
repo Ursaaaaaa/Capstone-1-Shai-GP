@@ -31,6 +31,11 @@ ul {
   padding-left: 10px;
 }
 
+footer div img {
+    padding: 5% 5%;
+    max-width: 300px;
+  }
+
 .logo img {
   padding-left: 20%;
   max-height: 60px;
@@ -105,7 +110,7 @@ main h2 {
 
 main h3 {
   font-family: 'Cocogoose', sans-serif;
-  font-size: 25x;
+  font-size: 25px;
   font-weight: 700;
   color: #272a31;
   padding: 15px;
@@ -205,6 +210,13 @@ main p {
   position: inherit;
 }
 
+.past-summit-card h2 {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    color: white;
+  }
+
 .top-speakers div h2 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -221,6 +233,13 @@ main p {
   color: #ec5242;
   padding: 2% 0;
 }
+
+.past-summit-card p {
+    position: absolute;
+    top: 70px;
+    left: 9%;
+    color: white;
+  }
 
 .top-speakers div p {
   font-family: 'Lato', sans-serif;
@@ -251,8 +270,6 @@ main p {
   color: #ec5242;
   background: #414248;
 }
-
-
 
 /* About */
 #about-main {
@@ -320,20 +337,6 @@ main p {
 .past-summit-card img {
   max-width: 400px;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
-}
-
-.past-summit-card h2 {
-  position: absolute;
-  top: 40px;
-  left: 40%;
-  color: white;
-}
-
-.past-summit-card p {
-  position: absolute;
-  top: 70px;
-  left: 9%;
-  color: white;
 }
 
 #home-partners {
@@ -631,11 +634,6 @@ footer div img {
     display: flex;
     flex-direction: row;
     gap: 45%;
-  }
-
-  footer div img {
-    padding: 5% 5%;
-    max-width: 300px;
   }
 
   #footer-text {
