@@ -478,13 +478,29 @@ footer div img {
     color: #414248;
   }
 
-  .drop-menu ul li {
+.drop-menu ul li {
   overflow-y: hidden;
 }
 
 .program-cards img {
     max-width: 40px;
     max-height: 50px;
+}
+
+main::after {
+    content: "";
+    background: url(images/background/deskback.png) no-repeat;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+.white-img {
+    display: none;
 }
   
 }
@@ -511,12 +527,23 @@ footer div img {
     display: none;
 }
 
+main::after {
+    content: "";
+    background: url(images/background/mobileback.png) no-repeat;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
 main div {
     padding: 8% 10%;
-    
 }
 
- #intro {
+#intro {
      margin-right: 25%;
      border: 2px solid rgb(201, 201, 227);
  }
@@ -686,15 +713,6 @@ footer div img {
 
 header {
     background-color:rgb(230, 233, 235);
-}
-
-#back {
-    display: none;
-}
-
-#back2 {
-    position: absolute;
-    opacity: 0.2;
 }
 
 }
