@@ -18,6 +18,7 @@ header {
     /* max-height: 60px; */
     background-color: inherit;
     height: 70px;
+    z-index: 10000;
 }
 
 ul {
@@ -423,13 +424,25 @@ footer div img {
   }
 
 .drop-menu {
-    background-color:#ec5242;
-    height: 100vh;
-    display: none;
+    display: block;
+    position: fixed; 
+    top:0;
+    left: 0; 
+    width: 100%;
   }
 
-  .drop-menu.active {
+  .drop-menu ul {
+      display: none;
+  }
+
+  .drop-menu.active ul {
+    background-color:#ec5242d4;
+    height: 100vh;
     display: block;
+  }
+
+  .drop-menu.active .menu-button {
+      background-color: #ec5242d4;
   }
 
   .menu-button.active .hamburger:nth-child(2) {
@@ -437,7 +450,7 @@ footer div img {
   }
 
   .menu-button.active .hamburger:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
   }
 
   .menu-button.active .hamburger:nth-child(3) {
@@ -448,6 +461,11 @@ footer div img {
     flex-direction: column;
   }
 
+  .main-scroll.active {
+      position: fixed;
+      width: 100%;
+      filter: blur(12px);
+  }
   .drop-menu ul li a {
     font-size: 37px;
     line-height: 44px;
