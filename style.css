@@ -466,12 +466,20 @@ footer div img {
       width: 100%;
       filter: blur(12px);
   }
+
   .drop-menu ul li a {
-    font-size: 37px;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
     line-height: 44px;
-    padding-left: 30px;
-    color: #fff5e1;
+    padding: 10% 3%;
+    color: #414248;
   }
+
+  .drop-menu ul li {
+  overflow-y: hidden;
+}
+  
 }
 
 @media(min-width:769px) {
@@ -680,4 +688,5 @@ header {
     position: absolute;
     opacity: 0.2;
 }
+
 }
