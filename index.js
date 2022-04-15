@@ -24,19 +24,19 @@ const speaksList = [
   },
   {
     name : "Sebastian Vettel",
-    image : "images/speakers/hamilton.jpg",
+    image : "images/speakers/vettel.jpg",
     graduate: "Formula 1 Driver",
     experience: "Vettel is a veteran F1 driver active with numerous championships under his belt",
   },
   {
     name : "Elon Musk",
-    image : "images/speakers/hamilton.jpg",
+    image : "images/speakers/musk.jpg",
     graduate: "CEO of SpaceX & Tesla",
     experience: "Elon is world renowned entreprenuer and kickstarter in electric vehicles",
   },
   {
     name : "Donald Trump",
-    image : "images/speakers/hamilton.jpg",
+    image : "images/speakers/trump.jpg",
     graduate: "Former President of USA",
     experience: "Trump is a succesful businessman and Former President of the USA",
   },
@@ -47,7 +47,7 @@ const speakers = document.querySelector('.top-speakers');
 for(let i = 0; i < speaksList.length; i++){
   let el = document.createElement('div')
 el.innerHTML = `
-
+<div class="speaker">
   <div>
      <img
          class="speaker-img"
@@ -62,6 +62,7 @@ el.innerHTML = `
         ${speaksList[i].experience}
         </p>
    </div>
+</div>
 `
 speakers.appendChild(el)
 };

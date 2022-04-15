@@ -16,7 +16,7 @@ Visit [here](https:https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
 
 ## Video for Documentation (can be found here)
 
-[Video]()
+[Video](https://www.loom.com/share/ead755d4d00f4c4ebaeed6a61c70cd88)
 
 ## Getting Started
 

@@ -502,6 +502,20 @@ main::after {
 .white-img {
     display: none;
 }
+
+.top-speakers {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    gap: 5%;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5%;
+    gap: 5%
+}
   
 }
 
