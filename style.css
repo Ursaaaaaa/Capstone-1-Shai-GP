@@ -81,11 +81,11 @@ li {
   background-color: #414248;
 }
 
-main div {
+#main div {
   margin: 4% 4%;
 }
 
-main h1 {
+#main h1 {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -98,7 +98,42 @@ p {
   padding: 3% 0;
 }
 
-main h2 {
+#about-main h1 {
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  color: #e6342d;
+}
+
+.program-cards h2 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #e6342d;
+  padding: 5% 1%;
+}
+
+.past-summit-card h2 {
+  position: absolute;
+  top: 40px;
+  left: 40%;
+  color: white;
+}
+
+.top-speakers div h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  padding: 2% 0;
+}
+
+#about-main h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  color: #e6342d;
+}
+
+#main h2 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 55px;
   font-weight: 800;
@@ -114,7 +149,7 @@ main h2 {
   padding: 10px 15px;
 }
 
-main h3 {
+#main h3 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 25px;
   font-weight: 700;
@@ -122,7 +157,29 @@ main h3 {
   padding: 15px;
 }
 
-main p {
+.program-cards p {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding-left: 4%;
+}
+
+.past-summit-card p {
+  position: absolute;
+  top: 70px;
+  left: 9%;
+  color: white;
+}
+
+.top-speakers div p {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  padding: 2%;
+}
+
+#main p {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -161,20 +218,6 @@ main p {
 
 .program-cards img {
   max-width: 60px;
-}
-
-.program-cards h2 {
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  color: #e6342d;
-  padding: 2% 4%;
-}
-
-.program-cards p {
-  font-size: 14px;
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-  padding-left: 4%;
 }
 
 #join-button {
@@ -216,45 +259,6 @@ main p {
   position: inherit;
 }
 
-.past-summit-card h2 {
-  position: absolute;
-  top: 40px;
-  left: 40%;
-  color: white;
-}
-
-.top-speakers div h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  text-align: left;
-  padding: 2% 0;
-}
-
-.top-speakers div h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  text-align: left;
-  color: #ec5242;
-  padding: 2% 0;
-}
-
-.past-summit-card p {
-  position: absolute;
-  top: 70px;
-  left: 9%;
-  color: white;
-}
-
-.top-speakers div p {
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-  padding: 2%;
-}
-
 .speaker-img2 {
   max-height: 150px;
   max-width: 200px;
@@ -279,11 +283,14 @@ main p {
 
 /* About */
 #about-main {
+  font-family: 'Lato', sans-serif;
   padding-bottom: 7%;
   text-align: center;
 }
 
 #about-main h3 {
+  font-family: 'Lato', sans-serif;
+  padding: 7%;
   font-size: 16px;
   font-weight: 400;
 }
@@ -563,7 +570,7 @@ footer {
     z-index: -1;
   }
 
-  main div {
+  #main div {
     padding: 8% 10%;
   }
 
@@ -572,7 +579,16 @@ footer {
     border: 2px solid rgb(201, 201, 227);
   }
 
-  main h3 {
+  .top-speakers div h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #ec5242;
+    padding: 2% 0;
+  }
+
+  #main h3 {
     font-family: 'Cocogoose', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -593,10 +609,6 @@ footer {
     width: 25%;
     margin: 2% 0.5%;
     text-align: center;
-  }
-
-  .program-cards h2 {
-    padding: 5% 1%;
   }
 
   .program-cards p {
