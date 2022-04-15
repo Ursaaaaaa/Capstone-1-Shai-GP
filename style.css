@@ -455,6 +455,10 @@ footer div img {
      display: none;
 }
 
+.menu-button {
+    display: none;
+  }
+
 .hamb-menu {
     padding-left: 35%;
 }
