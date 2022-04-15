@@ -137,10 +137,6 @@ main p {
     
 }
 
-.fa-light {
-    color: #fff;
-}
-
 .program-cards {
     display: flex;
     flex-direction: row;
@@ -148,7 +144,11 @@ main p {
     border: 1px #414248 solid ;
     background: #414248;
     margin: 20px 0;
-    gap: 5%;
+    
+}
+
+.program-cards img {
+    max-width: 60px;
 }
 
 .program-cards h2 {
