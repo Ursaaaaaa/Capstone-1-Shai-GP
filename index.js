@@ -15,19 +15,53 @@ menuButton.addEventListener('click', () => {
 // });
 
 //Speakers
+const speaksList = [
+  {
+    name : "Lewis Hamilton",
+    image : "images/speakers/hamilton.jpg",
+    graduate: "Formula 1 Driver",
+    experience: "Lewis is the most decorated F1 driver active with numerous run and championships under his belt",
+  },
+  {
+    name : "Sebastian Vettel",
+    image : "images/speakers/hamilton.jpg",
+    graduate: "Formula 1 Driver",
+    experience: "Vettel is a veteran F1 driver active with numerous championships under his belt",
+  },
+  {
+    name : "Elon Musk",
+    image : "images/speakers/hamilton.jpg",
+    graduate: "CEO of SpaceX & Tesla",
+    experience: "Elon is world renowned entreprenuer and kickstarter in electric vehicles",
+  },
+  {
+    name : "Donald Trump",
+    image : "images/speakers/hamilton.jpg",
+    graduate: "Former President of USA",
+    experience: "Trump is a succesful businessman and Former President of the USA",
+  },
+]
 
-let el = document.createElement('div')
+// console.log(speaksList)
+const speakers = document.querySelector('.top-speakers');
+for(let i = 0; i < speaksList.length; i++){
+  let el = document.createElement('div')
 el.innerHTML = `
-<div class="speaker">
-  <div class="speaker-img-block">
-    <img class="speaker-img" src="${this.speakerImage}" alt="speaker image">
+
+  <div>
+     <img
+         class="speaker-img"
+         src="${speaksList[i].image}"
+         alt="Lewis Hamilton"
+      />
   </div>
-  <div class="speaker-details">
-    <h4>${speakerName}</h4>
-    <em>${speakerGraduate}</em>
-    <div class="speaker-separation"></div>
-    <p>${speakerExperience}</p>
-  </div>
-</div>
+  <div>
+     <h2>${speaksList[i].name}</h2>
+     <h3>${speaksList[i].graduate}</h3>
+        <p>
+        ${speaksList[i].experience}
+        </p>
+   </div>
 `
-speakersFeature.append(el)
+speakers.appendChild(el)
+};
