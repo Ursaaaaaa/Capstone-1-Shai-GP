@@ -563,7 +563,7 @@ footer div img {
     display: none;
 }
 
-footer {
+#about-footer {
     background: #414248;
 }
 
@@ -571,7 +571,7 @@ footer {
     display: none;
 }
 
-#footer-text {
+#about-footer #footer-text {
     color: #fff;
     text-align: left;
     padding-top: 5%;
@@ -582,5 +582,13 @@ footer {
 
 #more-footer-text{
     display: none;
+}
+
+.solid {
+    width: 5%;
+    height: 0;
+    border: 1px solid #e6342d;
+    margin: 1% 47.5%;
+    
 }
 }
