@@ -2,6 +2,7 @@
 /* Home */
 * {
     margin: 0;
+    overflow-x: hidden;
 }
 
  #back {
@@ -178,6 +179,10 @@ main p {
     padding: 2%;
 }
 
+#speakers {
+    background-color: rgb(243, 246, 248);
+}
+
 .top-speakers {
     display: flex;
     flex-direction: row;
@@ -259,6 +264,7 @@ main p {
 #logo-reveal {
     text-align: center;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(243, 246, 248);
 }
 
 #logo-reveal h1 {
@@ -284,6 +290,7 @@ main p {
     padding-bottom: 7%;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(243, 246, 248);
 }
 
 #past-summits h1 {
@@ -402,6 +409,10 @@ footer div img {
 }
 
 #more-logo {
+    display: none;
+}
+
+#back2 {
     display: none;
 }
 }
@@ -590,5 +601,18 @@ footer div img {
     border: 1px solid #e6342d;
     margin: 1% 47.5%;
     
+}
+
+header {
+    background-color:rgb(230, 233, 235);
+}
+
+#back {
+    display: none;
+}
+
+#back2 {
+    position: absolute;
+    opacity: 0.2;
 }
 }
