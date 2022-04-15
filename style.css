@@ -23,6 +23,17 @@ header {
   z-index: 10000;
 }
 
+#social-header {
+    background: #414248;
+    height: 35px;
+    justify-content: flex-end;
+}
+
+#social-header .hamb-menu ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+
 ul {
   list-style: none;
   margin: 0;
