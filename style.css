@@ -191,8 +191,11 @@ main p {
 .top-speakers {
     display: flex;
     flex-direction: row;
-    padding: 5% 5%;
-    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5% 5%;
+    gap: 5%; */
 }
 
 .speaker-img {
@@ -727,6 +730,14 @@ footer div img {
 
 header {
     background-color:rgb(230, 233, 235);
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    gap: 10px;
+    padding: 20px ;
 }
 
 }
