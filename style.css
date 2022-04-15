@@ -92,6 +92,12 @@ main h1 {
   color: #e6342d;
 }
 
+#about-main h1,
+h2,
+p {
+  padding: 3% 0;
+}
+
 main h2 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 55px;
@@ -656,12 +662,6 @@ footer {
   .gone {
     margin-top: 4%;
     margin-bottom: 5%;
-  }
-
-  #about-main h1,
-  h2,
-  p {
-    padding: 3% 0;
   }
 
   #logo-reveal h1 {
