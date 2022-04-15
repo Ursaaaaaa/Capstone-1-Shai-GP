@@ -14,6 +14,10 @@
 
 Visit [here](https:https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
 
+## Video for Documentation (can be found here)
+
+[Video]()
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
