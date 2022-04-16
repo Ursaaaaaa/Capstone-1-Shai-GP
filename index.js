@@ -7,11 +7,6 @@ menuButton.addEventListener('click', () => {
   menuButton.classList.toggle('active');
 });
 
-// menu.addEventListener('click', () => {
-//   menu.classList.toggle('active');
-//   menuButton.classList.toggle('active');
-// });
-
 // Speakers
 const speaksList = [
   {
