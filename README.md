@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Visit [here](https:https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
+Visit [here](https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
 
 ## Video for Documentation (can be found here)
 
