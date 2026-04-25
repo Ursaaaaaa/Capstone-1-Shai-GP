@@ -16,7 +16,6 @@ Visit [here](https://ramrod433.github.io/Capstone-1-Shai-GP/) to view
 
 ## Video for Documentation (can be found here)
 
-[Video](https://www.loom.com/share/ead755d4d00f4c4ebaeed6a61c70cd88)
 
 ## Getting Started
 
@@ -44,11 +43,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Authors
 
-👤 **Nii Amanor Djoleto**
 
-- GitHub: [@ramrod433](https://github.com/ramrod433)
-- Twitter: [@\_Djoleto](https://twitter.com/_djoleto_)
-- LinkedIn: [Nii Amanor Djoleto](https://linkedin.com/in/nii-amanor-djoleto-072b8a14a)
 
 ## 🤝 Contributing
 
